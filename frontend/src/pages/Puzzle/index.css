@@ -1,0 +1,20 @@
+.input-class:focus-within{
+    outline: none;
+}
+.input-class{
+    font-size: 2rem;
+    width: 40%;
+    margin: 2rem 0 1rem 0;
+    padding: 1rem 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+  }
+  .button-check{
+    border:none;
+    background: none;
+    cursor: pointer;
+  }
+  .check-icon{
+    width: 5rem;
+  }
+ 

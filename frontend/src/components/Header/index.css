@@ -1,0 +1,9 @@
+.Header{
+    display: flex;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #eee;
+    justify-content: space-between;
+}
+.Header__nav{
+    display: flex;
+}
