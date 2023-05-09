@@ -33,7 +33,7 @@ function LogAdmin({ heading }) {
         password: values.password,
       };
       axios
-        .post("http://127.0.0.1:8000/login/", payload)
+        .post("https://treasure-ujmd.vercel.app/login/", payload)
         .then((response) => {
           console.log(response);
           if (response?.data?.user?.is_staff) {

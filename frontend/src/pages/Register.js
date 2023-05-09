@@ -51,7 +51,7 @@ const RegistrationForm = () => {
         password: values.password,
       };
       axios
-        .post("http://127.0.0.1:8000/signup/", payload)
+        .post("https://treasure-ujmd.vercel.app/signup/", payload)
         .then((response) => {
           localStorage.setItem("token", JSON.stringify(response.data.access));
           setIsAuthenticated(true);

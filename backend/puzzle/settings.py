@@ -140,7 +140,7 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',  # replace with your frontend URL
+    'https://treasure-phi.vercel.app',  # replace with your frontend URL
     'http://127.0.0.1:3000',
     'http://localhost:8000',  # replace with your backend URL
     'http://127.0.0.1:8000',

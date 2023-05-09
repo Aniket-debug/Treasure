@@ -25,7 +25,7 @@ const Puzzle = () => {
     }
   };
   useEffect(() => {
-    axios.get("http://127.0.0.1:8000/puzzles/").then((response) => {
+    axios.get("https://treasure-ujmd.vercel.app/puzzles/").then((response) => {
       const randomIndex = randomIndexGenerator(response.data);
       setPuzzle(response.data[randomIndex]);
     });
